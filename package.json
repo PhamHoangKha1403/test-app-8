@@ -1,0 +1,12 @@
+{
+    "name": "test-app-8",
+    "version": "1.0.0",
+    "description": "Service for test-app-8",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}

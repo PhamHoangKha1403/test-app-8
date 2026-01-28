@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-app-8"
+  annotations:
+    backstage.io/kubernetes-id: test-app-8
+    argocd/app-name: test-app-8-service
+    janus-idp.io/tekton: test-app-8-service
+spec:
+  type: service
+  owner: user:default/phamhoangkha1403
+  lifecycle: experimental
+  providesApis:
+    - test-app-8-api
